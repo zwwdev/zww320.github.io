@@ -15,10 +15,10 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">Hello! I am <span style={ hstyle }>{siteConfig.title}</span></h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <IconButton href="https://github.com/CodeCaterpillar666">
+        <IconButton href="https://github.com/zwwang98">
           <GitHub />
         </IconButton>
-        <IconButton href="https://www.linkedin.com/in/ziweiwang123/">
+        <IconButton href="https://www.linkedin.com/in/zwwang/">
           <LinkedIn />
         </IconButton>
       </div>
