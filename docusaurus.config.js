@@ -70,7 +70,12 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog/posts', label: 'Posts', position: 'left'},
+          {
+            to: '/blog/projects',
+            label: 'Projects',
+            position: 'left'
+          },
           {
             href: 'https://github.com/CodeCaterpillar666/blog',
             label: 'GitHub',
