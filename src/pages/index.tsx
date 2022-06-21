@@ -4,7 +4,8 @@ import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import {Button, IconButton, Typography} from '@mui/material';
-import { GitHub, LinkedIn } from '@mui/icons-material';
+import { GitHub, LinkedIn, MailOutline } from '@mui/icons-material';
+import EmailIcon from '@mui/icons-material/Email';
 
 const hstyle = {color: '#2196f3'};
 
@@ -20,6 +21,9 @@ function HomepageHeader() {
         </IconButton>
         <IconButton href="https://www.linkedin.com/in/zwwang/">
           <LinkedIn />
+        </IconButton>
+        <IconButton href="mailto:ziweiwang630@gmail.com">
+          <EmailIcon />
         </IconButton>
       </div>
     </header>
