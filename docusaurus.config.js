@@ -64,12 +64,12 @@ const config = {
           width: 50
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           {to: '/blog/posts', label: 'Posts', position: 'left'},
           {
             to: '/blog/projects',
