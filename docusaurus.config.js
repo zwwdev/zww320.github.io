@@ -9,7 +9,7 @@ const config = {
   title: 'Ziwei Wang',
   tagline: 'A Northeastern University student studying Computer Science who has great passion for distributed system and web development',
   url: 'https://github.com',
-  baseUrl: '/blog/',
+  baseUrl: '/zwwang98/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
