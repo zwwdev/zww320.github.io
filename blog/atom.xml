@@ -2,16 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/blog</id>
     <title>Ziwei Wang Blog</title>
-    <updated>2022-06-23T01:34:44.000Z</updated>
+    <updated>2022-06-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/blog"/>
     <subtitle>Ziwei Wang Blog</subtitle>
     <icon>https://github.com/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Useful Resources for Writting Blogs]]></title>
+        <id>useful-resources-for-writting-blogs</id>
+        <link href="https://github.com/blog/useful-resources-for-writting-blogs"/>
+        <updated>2022-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[markdown syntax]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="markdown-syntax">markdown syntax<a class="hash-link" href="#markdown-syntax" title="Direct link to heading">​</a></h3><ol><li><a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener noreferrer">https://www.markdownguide.org/basic-syntax/</a></li><li><a href="https://www.tablesgenerator.com/markdown_tables" target="_blank" rel="noopener noreferrer">Generate table in markdown</a></li></ol>]]></content>
+        <author>
+            <name>Ziwei Wang</name>
+            <uri>https://github.com/zwwang98</uri>
+        </author>
+        <category label="resources" term="resources"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How to deploy your website on github pages without repo name?]]></title>
         <id>deploy-on-github-pages-without-repo-name</id>
         <link href="https://github.com/blog/deploy-on-github-pages-without-repo-name"/>
-        <updated>2022-06-23T01:34:44.000Z</updated>
+        <updated>2022-06-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Situation]]></summary>
         <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="situation">Situation<a class="hash-link" href="#situation" title="Direct link to heading">​</a></h3><p>When I was deploying my website on github pages, I found that the deployment url always containing my repo name. The whole url was '<a href="https://zwwang98.github.io/blog'" target="_blank" rel="noopener noreferrer">https://zwwang98.github.io/blog'</a> and I want it to be just '<a href="https://zwwang98.github.io/'" target="_blank" rel="noopener noreferrer">https://zwwang98.github.io/'</a>. Here's what I have done to solve this problem.</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="action">Action<a class="hash-link" href="#action" title="Direct link to heading">​</a></h3><ol><li><p>Changed my website's repo name into <code>&lt;username&gt;.github.io</code>.<br>
 <!-- -->Say if your github user name is "user", then your repo for generating a github page without trailing repo name must be "user.github.io".</p></li><li><p>Deploy it. In your repo:<br>
@@ -21,19 +34,6 @@
             <uri>https://github.com/zwwang98</uri>
         </author>
         <category label="deploy on github" term="deploy on github"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Useful Resources for Writting Blogs]]></title>
-        <id>useful-resources-for-writting-blogs</id>
-        <link href="https://github.com/blog/useful-resources-for-writting-blogs"/>
-        <updated>2022-06-23T01:19:39.846Z</updated>
-        <summary type="html"><![CDATA[markdown syntax]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="markdown-syntax">markdown syntax<a class="hash-link" href="#markdown-syntax" title="Direct link to heading">​</a></h3><ol><li><a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener noreferrer">https://www.markdownguide.org/basic-syntax/</a></li><li><a href="https://www.tablesgenerator.com/markdown_tables" target="_blank" rel="noopener noreferrer">Generate table in markdown</a></li></ol>]]></content>
-        <author>
-            <name>Ziwei Wang</name>
-            <uri>https://github.com/zwwang98</uri>
-        </author>
-        <category label="resources" term="resources"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>

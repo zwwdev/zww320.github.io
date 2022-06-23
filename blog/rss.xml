@@ -4,29 +4,29 @@
         <title>Ziwei Wang Blog</title>
         <link>https://github.com/blog</link>
         <description>Ziwei Wang Blog</description>
-        <lastBuildDate>Thu, 23 Jun 2022 01:34:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jun 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[Useful Resources for Writting Blogs]]></title>
+            <link>https://github.com/blog/useful-resources-for-writting-blogs</link>
+            <guid>useful-resources-for-writting-blogs</guid>
+            <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[markdown syntax]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="markdown-syntax">markdown syntax<a class="hash-link" href="#markdown-syntax" title="Direct link to heading">​</a></h3><ol><li><a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener noreferrer">https://www.markdownguide.org/basic-syntax/</a></li><li><a href="https://www.tablesgenerator.com/markdown_tables" target="_blank" rel="noopener noreferrer">Generate table in markdown</a></li></ol>]]></content:encoded>
+            <category>resources</category>
+        </item>
+        <item>
             <title><![CDATA[How to deploy your website on github pages without repo name?]]></title>
             <link>https://github.com/blog/deploy-on-github-pages-without-repo-name</link>
             <guid>deploy-on-github-pages-without-repo-name</guid>
-            <pubDate>Thu, 23 Jun 2022 01:34:44 GMT</pubDate>
+            <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Situation]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="situation">Situation<a class="hash-link" href="#situation" title="Direct link to heading">​</a></h3><p>When I was deploying my website on github pages, I found that the deployment url always containing my repo name. The whole url was '<a href="https://zwwang98.github.io/blog'" target="_blank" rel="noopener noreferrer">https://zwwang98.github.io/blog'</a> and I want it to be just '<a href="https://zwwang98.github.io/'" target="_blank" rel="noopener noreferrer">https://zwwang98.github.io/'</a>. Here's what I have done to solve this problem.</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="action">Action<a class="hash-link" href="#action" title="Direct link to heading">​</a></h3><ol><li><p>Changed my website's repo name into <code>&lt;username&gt;.github.io</code>.<br>
 <!-- -->Say if your github user name is "user", then your repo for generating a github page without trailing repo name must be "user.github.io".</p></li><li><p>Deploy it. In your repo:<br>
 <code>settings</code> -&gt; <code>pages</code> -&gt; choose the <code>source</code> and click <code>save</code></p><p><img loading="lazy" alt="how to deploy on github" src="/assets/images/how-to-deploy-on-github-c449f24618bff1ffae2428e88ddf1379.png" width="2476" height="1108" class="img_E7b_"></p></li></ol><h3 class="anchor anchorWithStickyNavbar_mojV" id="summary">Summary<a class="hash-link" href="#summary" title="Direct link to heading">​</a></h3><p>Based on <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites" target="_blank" rel="noopener noreferrer">github docs</a>,  </p><blockquote><p>There are three types of GitHub Pages sites: project, user, and organization.</p></blockquote><p>Based on my understanding, the repo name constraints and the result github pages url are listed below:  </p><table><thead><tr><th></th><th>Repo Name</th><th>Result Site</th></tr></thead><tbody><tr><td>project</td><td>any name you want</td><td><code>http(s)://&lt;username&gt;.github.io/&lt;repository&gt;</code>  or  <code>http(s)://&lt;organization&gt;.github.io/&lt;repository&gt;</code></td></tr><tr><td>user</td><td><code>&lt;username&gt;.github.io</code></td><td><code>http(s)://&lt;username&gt;.github.io</code></td></tr><tr><td>organization</td><td><code>&lt;organization&gt;.github.io</code></td><td><code>http(s)://&lt;organization&gt;.github.io</code></td></tr></tbody></table><h3 class="anchor anchorWithStickyNavbar_mojV" id="reference">Reference<a class="hash-link" href="#reference" title="Direct link to heading">​</a></h3><p><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites" target="_blank" rel="noopener noreferrer">https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites</a></p>]]></content:encoded>
             <category>deploy on github</category>
-        </item>
-        <item>
-            <title><![CDATA[Useful Resources for Writting Blogs]]></title>
-            <link>https://github.com/blog/useful-resources-for-writting-blogs</link>
-            <guid>useful-resources-for-writting-blogs</guid>
-            <pubDate>Thu, 23 Jun 2022 01:19:39 GMT</pubDate>
-            <description><![CDATA[markdown syntax]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="markdown-syntax">markdown syntax<a class="hash-link" href="#markdown-syntax" title="Direct link to heading">​</a></h3><ol><li><a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener noreferrer">https://www.markdownguide.org/basic-syntax/</a></li><li><a href="https://www.tablesgenerator.com/markdown_tables" target="_blank" rel="noopener noreferrer">Generate table in markdown</a></li></ol>]]></content:encoded>
-            <category>resources</category>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
