@@ -39,7 +39,7 @@ function HomepageHeader() {
 
   const iconItms = iconButtonInfo.map(info =>
       <Tooltip title={info.title}>
-        <IconButton href={info.link}>
+        <IconButton onClick={()=>window.open(`${info.link}`)}>
           {info.icon}
         </IconButton>
       </Tooltip>
