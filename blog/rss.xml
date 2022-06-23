@@ -20,6 +20,15 @@
             <category>deploy on github</category>
         </item>
         <item>
+            <title><![CDATA[Useful Resources for Writting Blogs]]></title>
+            <link>https://github.com/blog/useful-resources-for-writting-blogs</link>
+            <guid>useful-resources-for-writting-blogs</guid>
+            <pubDate>Thu, 23 Jun 2022 01:19:39 GMT</pubDate>
+            <description><![CDATA[markdown syntax]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="markdown-syntax">markdown syntax<a class="hash-link" href="#markdown-syntax" title="Direct link to heading">​</a></h3><ol><li><a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener noreferrer">https://www.markdownguide.org/basic-syntax/</a></li><li><a href="https://www.tablesgenerator.com/markdown_tables" target="_blank" rel="noopener noreferrer">Generate table in markdown</a></li></ol>]]></content:encoded>
+            <category>resources</category>
+        </item>
+        <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://github.com/blog/welcome</link>
             <guid>welcome</guid>
