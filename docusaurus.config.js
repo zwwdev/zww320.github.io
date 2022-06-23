@@ -9,7 +9,7 @@ const config = {
   title: 'Ziwei Wang',
   tagline: 'A Northeastern University student studying Computer Science who has great passion for distributed system and web development',
   url: 'https://github.com',
-  baseUrl: '/zwwang98/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -70,9 +70,9 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/blog/posts', label: 'Posts', position: 'left'},
+          {to: '/posts', label: 'Posts', position: 'left'},
           {
-            to: '/blog/projects',
+            to: '/projects',
             label: 'Projects',
             position: 'left'
           },
