@@ -36,6 +36,12 @@
         <category label="deploy on github" term="deploy on github"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[mui]]></title>
+        <id>/2022/06/06/mui</id>
+        <link href="https://github.com/blog/2022/06/06/mui"/>
+        <updated>2022-06-06T00:00:00.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
         <link href="https://github.com/blog/welcome"/>
