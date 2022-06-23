@@ -59,8 +59,8 @@ const config = {
       navbar: {
         title: 'Ziwei Wang',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'My Website Logo',
+          src: 'img/logo.png',
           width: 50
         },
         items: [
@@ -70,7 +70,7 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/posts', label: 'Posts', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             to: '/projects',
             label: 'Projects',
