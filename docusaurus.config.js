@@ -61,7 +61,6 @@ const config = {
         logo: {
           alt: 'My Website Logo',
           src: 'img/logo.png',
-          width: 50
         },
         items: [
           // {

@@ -1,21 +1,21 @@
-<svg width="654" height="651" viewBox="0 0 654 651" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="248.704" cy="402.297" r="248.704" fill="#4995FE"/>
-<circle cx="248.704" cy="402.296" r="186.528" fill="#EDF5FE"/>
-<circle cx="248.704" cy="402.297" r="124.352" fill="#FF0000"/>
-<circle cx="248.704" cy="402.297" r="124.352" fill="#FF435A"/>
-<circle cx="248.704" cy="402.296" r="62.1759" fill="#FF0000"/>
-<circle cx="248.704" cy="402.296" r="62.1759" fill="#F8DFDF"/>
-<path d="M536.428 195.34C539.08 195.34 541.624 194.287 543.499 192.412L636.929 98.9819C643.229 92.6823 638.767 81.9108 629.858 81.9108L570.212 81.9108C567.56 81.9108 565.016 82.9644 563.141 84.8398L469.711 178.269C463.412 184.569 467.873 195.34 476.783 195.34L536.428 195.34Z" fill="#FABE2D"/>
-<path d="M461.787 118.212C461.787 115.56 462.84 113.016 464.716 111.141L558.145 17.7114C564.445 11.4118 575.217 15.8734 575.217 24.7825L575.217 84.4282C575.217 87.0803 574.163 89.6239 572.288 91.4992L478.858 184.929C472.558 191.229 461.787 186.767 461.787 177.858L461.787 118.212Z" fill="#FFDE46"/>
-<circle cx="248.704" cy="403.54" r="12.4352" fill="#FF0000"/>
-<circle cx="248.704" cy="403.54" r="12.4352" fill="black"/>
-<circle cx="600.619" cy="51.6245" r="12.4352" fill="#FF0000"/>
-<circle cx="600.619" cy="51.6245" r="12.4352" fill="black"/>
+<svg width="1066" height="1061" viewBox="0 0 1066 1061" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="405.379" cy="654.687" r="405.379" fill="#4995FE"/>
+<circle cx="405.379" cy="654.687" r="304.034" fill="#EDF5FE"/>
+<circle cx="405.379" cy="654.687" r="202.69" fill="#FF0000"/>
+<circle cx="405.379" cy="654.687" r="202.69" fill="#FF435A"/>
+<circle cx="405.379" cy="654.687" r="101.345" fill="#FF0000"/>
+<circle cx="405.379" cy="654.687" r="101.345" fill="#F8DFDF"/>
+<path d="M876.971 317.355C879.623 317.355 882.167 316.302 884.042 314.426L1048.93 149.539C1055.23 143.24 1050.77 132.468 1041.86 132.468L926.819 132.468C924.167 132.468 921.623 133.522 919.748 135.397L754.861 300.284C748.561 306.584 753.023 317.355 761.932 317.355H876.971Z" fill="#FABE2D"/>
+<path d="M752.699 189.029C752.699 186.377 753.752 183.833 755.627 181.958L920.514 17.0711C926.814 10.7714 937.585 15.2331 937.585 24.1422L937.585 139.181C937.585 141.833 936.532 144.377 934.656 146.252L769.77 311.139C763.47 317.439 752.699 312.977 752.699 304.068V189.029Z" fill="#FFDE46"/>
+<circle cx="405.703" cy="653.69" r="10.25" fill="#FF0000"/>
+<circle cx="405.703" cy="653.69" r="10.25" fill="black"/>
+<circle cx="978.684" cy="79.7087" r="10.25" fill="#FF0000"/>
+<circle cx="978.684" cy="79.7087" r="10.25" fill="black"/>
 <g filter="url(#filter0_b_3_2)">
-<line x1="597.546" y1="51.2345" x2="245.826" y2="402.954" stroke="black" stroke-width="20"/>
+<line x1="977.24" y1="82.0074" x2="403.948" y2="655.3" stroke="black" stroke-width="20"/>
 </g>
 <defs>
-<filter id="filter0_b_3_2" x="234.755" y="40.1634" width="373.862" height="373.862" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_b_3_2" x="392.876" y="70.9363" width="595.435" height="595.435" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_3_2"/>
