@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/blog</id>
     <title>Ziwei Wang Blog</title>
-    <updated>2022-06-23T00:52:08.448Z</updated>
+    <updated>2022-06-23T01:34:44.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/blog"/>
     <subtitle>Ziwei Wang Blog</subtitle>
@@ -11,9 +11,11 @@
         <title type="html"><![CDATA[How to deploy your website on github pages without repo name?]]></title>
         <id>deploy-on-github-pages-without-repo-name</id>
         <link href="https://github.com/blog/deploy-on-github-pages-without-repo-name"/>
-        <updated>2022-06-23T00:52:08.448Z</updated>
-        <summary type="html"><![CDATA[When I was deploying my website on github pages, I found that the deployment url always containing my repo name. The whole url was 'https//zwwang98.github.io/'.]]></summary>
-        <content type="html"><![CDATA[<p>When I was deploying my website on github pages, I found that the deployment url always containing my repo name. The whole url was '<a href="https://zwwang98.github.io/blog'" target="_blank" rel="noopener noreferrer">https://zwwang98.github.io/blog'</a> and I want it to be just '<a href="https://zwwang98.github.io/'" target="_blank" rel="noopener noreferrer">https://zwwang98.github.io/'</a>.</p>]]></content>
+        <updated>2022-06-23T01:34:44.000Z</updated>
+        <summary type="html"><![CDATA[Situation]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="situation">Situation<a class="hash-link" href="#situation" title="Direct link to heading">​</a></h3><p>When I was deploying my website on github pages, I found that the deployment url always containing my repo name. The whole url was '<a href="https://zwwang98.github.io/blog'" target="_blank" rel="noopener noreferrer">https://zwwang98.github.io/blog'</a> and I want it to be just '<a href="https://zwwang98.github.io/'" target="_blank" rel="noopener noreferrer">https://zwwang98.github.io/'</a>. Here's what I have done to solve this problem.</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="action">Action<a class="hash-link" href="#action" title="Direct link to heading">​</a></h3><ol><li><p>Changed my website's repo name into <code>&lt;username&gt;.github.io</code>.<br>
+<!-- -->Say if your github user name is "user", then your repo for generating a github page without trailing repo name must be "user.github.io".</p></li><li><p>Deploy it. In your repo:<br>
+<code>settings</code> -&gt; <code>pages</code> -&gt; choose the <code>source</code> and click <code>save</code></p><p><img loading="lazy" alt="how to deploy on github" src="/assets/images/how-to-deploy-on-github-c449f24618bff1ffae2428e88ddf1379.png" width="2476" height="1108" class="img_E7b_"></p></li></ol><h3 class="anchor anchorWithStickyNavbar_mojV" id="summary">Summary<a class="hash-link" href="#summary" title="Direct link to heading">​</a></h3><p>Based on <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites" target="_blank" rel="noopener noreferrer">github docs</a>,  </p><blockquote><p>There are three types of GitHub Pages sites: project, user, and organization.</p></blockquote><p>Based on my understanding, the repo name constraints and the result github pages url are listed below:  </p><table><thead><tr><th></th><th>Repo Name</th><th>Result Site</th></tr></thead><tbody><tr><td>project</td><td>any name you want</td><td><code>http(s)://&lt;username&gt;.github.io/&lt;repository&gt;</code>  or  <code>http(s)://&lt;organization&gt;.github.io/&lt;repository&gt;</code></td></tr><tr><td>user</td><td><code>&lt;username&gt;.github.io</code></td><td><code>http(s)://&lt;username&gt;.github.io</code></td></tr><tr><td>organization</td><td><code>&lt;organization&gt;.github.io</code></td><td><code>http(s)://&lt;organization&gt;.github.io</code></td></tr></tbody></table><h3 class="anchor anchorWithStickyNavbar_mojV" id="reference">Reference<a class="hash-link" href="#reference" title="Direct link to heading">​</a></h3><p><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites" target="_blank" rel="noopener noreferrer">https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites</a></p>]]></content>
         <author>
             <name>Ziwei Wang</name>
             <uri>https://github.com/zwwang98</uri>
