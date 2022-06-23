@@ -76,6 +76,11 @@ const config = {
             position: 'left'
           },
           {
+            href: 'https://drive.google.com/file/d/1tatRyjrzkt5TYCV-Q2wKa16UUm3CruQb/view?usp=sharing',
+            label: 'Resume',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/CodeCaterpillar666/blog',
             label: 'GitHub',
             position: 'right',
@@ -95,11 +100,11 @@ const config = {
             items: [
               {
                 label: 'LinkedIn',
-                to: 'https://www.linkedin.com/in/ziweiwang123/',
+                href: 'https://www.linkedin.com/in/ziweiwang123/',
               },
               {
                 label: 'Email',
-                to: 'https://ziweiwang98@outlook.com',
+                href: 'https://ziweiwang98@outlook.com',
               },
             ],
           },

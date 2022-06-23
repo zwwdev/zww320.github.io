@@ -6,25 +6,51 @@ import styles from './index.module.css';
 import {Button, IconButton, Typography} from '@mui/material';
 import { GitHub, LinkedIn, MailOutline } from '@mui/icons-material';
 import EmailIcon from '@mui/icons-material/Email';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
+import Tooltip from '@mui/material/Tooltip';
 
 const hstyle = {color: '#2196f3'};
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+
+  const iconButtonInfo = [
+    {
+      icon: <GitHub/>,
+      title: "GitHub",
+      link: "https://github.com/zwwang98"
+    },
+    {
+      icon: <LinkedIn/>,
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/in/zwwang/"
+    },
+    {
+      icon: <EmailIcon/>,
+      title: "Email",
+      link: "mailto:ziweiwang630@gmail.com"
+    },
+    {
+      icon: <InsertDriveFileIcon/>,
+      title: "Resume",
+      link: "https://drive.google.com/file/d/1tatRyjrzkt5TYCV-Q2wKa16UUm3CruQb/view"
+    },
+  ];
+
+  const iconItms = iconButtonInfo.map(info =>
+      <Tooltip title={info.title}>
+        <IconButton href={info.link}>
+          {info.icon}
+        </IconButton>
+      </Tooltip>
+  );
+
   return (
     <header>
       <div className="container">
         <h1 className="hero__title">Hello! I am <span style={ hstyle }>{siteConfig.title}</span></h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <IconButton href="https://github.com/zwwang98">
-          <GitHub />
-        </IconButton>
-        <IconButton href="https://www.linkedin.com/in/zwwang/">
-          <LinkedIn />
-        </IconButton>
-        <IconButton href="mailto:ziweiwang630@gmail.com">
-          <EmailIcon />
-        </IconButton>
+        {iconItms}
       </div>
     </header>
   );

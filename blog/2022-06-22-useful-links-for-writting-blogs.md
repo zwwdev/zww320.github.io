@@ -9,6 +9,6 @@ authors:
 tags: [resources]
 ---
 
-markdown syntax:
+### markdown syntax
 1. https://www.markdownguide.org/basic-syntax/
 2. [Generate table in markdown](https://www.tablesgenerator.com/markdown_tables) 
