@@ -18,6 +18,20 @@
             <category>resources</category>
         </item>
         <item>
+            <title><![CDATA[How to Embed Live Code Editor in your Website?]]></title>
+            <link>https://github.com/blog/sandpack</link>
+            <guid>sandpack</guid>
+            <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[When I was reading React Docs Beta, I found an editable code block and its live rendering result on that page.]]></description>
+            <content:encoded><![CDATA[<p>When I was reading <a href="https://beta.reactjs.org/learn#sharing-data-between-components" target="_blank" rel="noopener noreferrer">React Docs Beta</a>, I found an editable code block and its live rendering result on that page.
+I was wondering how to do so and maybe I could use this tool for my own website. Then I opened the chrome console and seleted the element I was interested in and found the corresponding html code like below:
+<img loading="lazy" alt="react-docs-editable-code-block-screenshot" src="/assets/images/react-docs-editable-code-block-screenshot-f7e8670b47ff41965ad5614845d9173b.png" width="1935" height="840" class="img_E7b_"></p><p>The div has a class attribute "sandpack-container" that sounds like sandbox. So I googled it and this is what I found:
+<img loading="lazy" alt="sandpack-website-screenshot" src="/assets/images/sandpack-website-screenshot-ebc9724dd4a14e9fcbf86b47bec505b2.png" width="3790" height="1854" class="img_E7b_"></p><p>And this is what we will discuss.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="sandpack">Sandpack<a class="hash-link" href="#sandpack" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_mojV" id="what-is-sandpack">What is Sandpack<a class="hash-link" href="#what-is-sandpack" title="Direct link to heading">​</a></h3><p>On their <a href="https://sandpack.codesandbox.io/" target="_blank" rel="noopener noreferrer">website</a>, it says that:</p><blockquote><p>A component toolkit for creating live-running code editing experiences, using the power of CodeSandbox.</p></blockquote><h3 class="anchor anchorWithStickyNavbar_mojV" id="running-example">Running Example<a class="hash-link" href="#running-example" title="Direct link to heading">​</a></h3><p>Following <a href="https://sandpack.codesandbox.io/docs/" target="_blank" rel="noopener noreferrer">Sandpack's Docs</a>, I added this running Sandpack react component for writting React below. Feel free to give it a try!</p><div class="sp-wrapper sp-default sp-c-fVPbOs sp-c-fVPbOs-gMQIch-variant-light"><div class="sp-layout sp-c-dvoSuG"><div class="sp-stack sp-c-jKpMgH" style="flex-grow:50;flex-shrink:50;min-width:350px"><div class="sp-code-editor sp-c-bNbSGz"><div aria-describedby="enter-instructions-5241" aria-label="Code Editor for App.js" class="sp-cm sp-pristine sp-javascript sp-c-jcgexo sp-c-jkvvao" role="group" tabindex="0" translate="no"><pre class="sp-pre-placeholder sp-c-fWymNx" style="margin-left:var(--sp-space-5)"><span class="sp-syntax-keyword">export</span> <span class="sp-syntax-keyword">default</span> <span class="sp-syntax-keyword">function</span> <span class="sp-syntax-definition">App</span><span class="sp-syntax-punctuation">(</span><span class="sp-syntax-punctuation">)</span> <span class="sp-syntax-punctuation">{</span>
+  <span class="sp-syntax-keyword">return</span> <span class="sp-syntax-punctuation">&lt;</span><span class="sp-syntax-tag">h1</span><span class="sp-syntax-punctuation">&gt;</span>Hello World<span class="sp-syntax-punctuation">&lt;/</span><span class="sp-syntax-tag">h1</span><span class="sp-syntax-punctuation">&gt;</span>
+<span class="sp-syntax-punctuation">}</span></pre><p id="enter-instructions-5241" style="display:none">To enter the code editing mode, press Enter. To exit the edit mode, press Escape</p><p id="exit-instructions-5241" style="display:none">You are editing the code. To exit the edit mode, press Escape</p></div></div></div><div class="sp-stack sp-c-jKpMgH" style="flex-grow:50;flex-shrink:50;min-width:350px"><div class="sp-preview-container sp-c-bIhyHd"><iframe class="sp-preview-iframe sp-c-fgviib" title="Sandpack Preview"></iframe><div class="sp-preview-actions sp-c-eKnQtg"><a href="https://codesandbox.io/api/v1/sandboxes/define?undefined" rel="noreferrer noopener" target="_blank" title="Open in CodeSandbox" class="sp-button sp-icon-standalone sp-c-jCyRbv sp-c-gMfcns sp-c-eBhISN"><svg fill="none" height="24" stroke="currentColor" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.5714 7H8.07143C7.4797 7 7 7.4797 7 8.07143V15.9286C7 16.5203 7.4797 17 8.07143 17H15.9286C16.5203 17 17 16.5203 17 15.9286V13.4286"></path><path d="M14.1429 7H16.8929C16.952 7 17 7.04798 17 7.10714V9.85715"></path><path d="M11.2858 12.7143L16.8572 7.14282"></path></svg></a></div></div></div></div></div>]]></content:encoded>
+            <category>blog</category>
+        </item>
+        <item>
             <title><![CDATA[How to deploy your website on github pages without repo name?]]></title>
             <link>https://github.com/blog/deploy-on-github-pages-without-repo-name</link>
             <guid>deploy-on-github-pages-without-repo-name</guid>
@@ -29,10 +43,15 @@
             <category>deploy on github</category>
         </item>
         <item>
-            <title><![CDATA[mui]]></title>
-            <link>https://github.com/blog/2022/06/06/mui</link>
-            <guid>/2022/06/06/mui</guid>
+            <title><![CDATA[My Experience on Using Material UI]]></title>
+            <link>https://github.com/blog/experience-on-material-ui</link>
+            <guid>experience-on-material-ui</guid>
             <pubDate>Mon, 06 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[What is Material UI]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_mojV" id="what-is-material-ui">What is Material UI<a class="hash-link" href="#what-is-material-ui" title="Direct link to heading">​</a></h3><h3 class="anchor anchorWithStickyNavbar_mojV" id="mui-components-i-have-used">MUI Components I have used<a class="hash-link" href="#mui-components-i-have-used" title="Direct link to heading">​</a></h3>]]></content:encoded>
+            <category>material ui</category>
+            <category>front end</category>
+            <category>react</category>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
