@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import { ProjectCard } from '../components/ProjectCard';
 import typeupImage from '../../static/projectsImages/typeup.png';
+import blanchardImage from '../../static/projectsImages/blanchard.png';
 import { Grid } from '@mui/material';
 
 
@@ -24,17 +25,10 @@ export default function Projects() {
               deploymentUrl="https://main.d3pddxrrd2k8h3.amplifyapp.com/"
           />
           <ProjectCard 
-              image={typeupImage}
-              title="Type-Up"
-              info="Type-Up is an online typing practice platform for non-native English speakers to help them enhance English vocabulary and type faster in English at the same time"
-              githubUrl="https://github.com/zwwang98/type-up"
-              deploymentUrl="https://main.d3pddxrrd2k8h3.amplifyapp.com/"
-          />
-          <ProjectCard 
-              image={typeupImage}
-              title="Type-Up"
-              info="Type-Up is an online typing practice platform for non-native English speakers to help them enhance English vocabulary and type faster in English at the same time"
-              githubUrl="https://github.com/zwwang98/type-up"
+              image={blanchardImage}
+              title="Blanchard"
+              info="A React component library built by ReactJS and TypeScript"
+              githubUrl="https://github.com/zwwang98/blanchard"
               deploymentUrl="https://main.d3pddxrrd2k8h3.amplifyapp.com/"
           />
       </div>
