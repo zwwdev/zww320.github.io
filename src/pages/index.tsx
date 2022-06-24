@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import {Button, IconButton, Typography} from '@mui/material';
+import {Button, Container, IconButton, Typography} from '@mui/material';
 import { GitHub, LinkedIn, MailOutline } from '@mui/icons-material';
 import EmailIcon from '@mui/icons-material/Email';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
@@ -48,8 +48,9 @@ function HomepageHeader() {
   return (
     <header>
       <div className="place-holder" ></div>
-      <div className="container">
-        <h1 className="hero__title">Hello! I am <span style={ hstyle }>{siteConfig.title}</span></h1>
+      <div className="container" >
+        <Container sx={{mt: 15}}></Container>
+        <h1 className="hero__title" >Hello! I am <span style={ hstyle }>{siteConfig.title}</span></h1>
         <p className="hero__subtitle">
           <span>
             A Northeastern University student studying Computer Science 
