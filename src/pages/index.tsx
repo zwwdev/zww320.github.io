@@ -47,9 +47,19 @@ function HomepageHeader() {
 
   return (
     <header>
+      <div className="place-holder" ></div>
       <div className="container">
         <h1 className="hero__title">Hello! I am <span style={ hstyle }>{siteConfig.title}</span></h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          <span>
+            A Northeastern University student studying Computer Science 
+          </span>
+          <br></br>
+          <span>
+            Passionate for distributed system and web development
+          </span> 
+        </p>
+        {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
         {iconItms}
       </div>
     </header>
