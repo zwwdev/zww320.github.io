@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[7163],{9455:function(l){l.exports=JSON.parse('{"label":"Intellij Idea","permalink":"/blog/tags/intellij-idea","allTagsPath":"/blog/tags","count":2}')}}]);
