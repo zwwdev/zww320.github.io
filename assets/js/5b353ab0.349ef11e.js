@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[9912],{6313:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/servelet","page":1,"postsPerPage":2,"totalPages":1,"totalCount":2,"blogDescription":"Blogs by Ziwei Wang","blogTitle":"Blogs by Ziwei Wang"}')}}]);
