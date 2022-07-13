@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/blog</id>
     <title>Ziwei Wang Blog</title>
-    <updated>2022-07-08T00:00:00.000Z</updated>
+    <updated>2022-07-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/blog"/>
     <subtitle>Ziwei Wang Blog</subtitle>
     <icon>https://github.com/img/logo.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Personal Notes on React Docs(Beta)]]></title>
+        <id>react-docs-beta-notes</id>
+        <link href="https://github.com/blog/react-docs-beta-notes"/>
+        <updated>2022-07-12T00:00:00.000Z</updated>
+        <author>
+            <name>Ziwei Wang</name>
+            <uri>https://github.com/zwwang98</uri>
+        </author>
+        <category label="JavaScript" term="JavaScript"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Writting Markup with JSX]]></title>
+        <id>jsx</id>
+        <link href="https://github.com/blog/jsx"/>
+        <updated>2022-07-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is my personal notes on React Docs(Beta) - Writting Markup with JSX.]]></summary>
+        <content type="html"><![CDATA[<p>This is my personal notes on React Docs(Beta) - <a href="https://beta.reactjs.org/learn/writing-markup-with-jsx" target="_blank" rel="noopener noreferrer">Writting Markup with JSX</a>.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="what-is-jsx">What is JSX?<a class="hash-link" href="#what-is-jsx" title="Direct link to heading">​</a></h2><p>JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="why-do-we-need-jsx">Why do we need JSX?<a class="hash-link" href="#why-do-we-need-jsx" title="Direct link to heading">​</a></h2><ul><li>The Web has been built on HTML(for content), CSS(for style or design) and JavaScript(for logic) and built on separate <code>.html</code>, <code>.css</code> and <code>.js</code> files.
+However, all of them serve for the same purpose -- build something users see.
+It makes more sense to put related things together. That is why JSX came out.</li><li>In React, rendering logic and markup live together in the same place - component.
+Based on my understanding, React chose to put HTML into JavaScript - that is what JSX looks like to me.
+As the <a href="https://beta.reactjs.org/learn/writing-markup-with-jsx" target="_blank" rel="noopener noreferrer">docs</a> says:<blockquote><p>Each React component is a JavaScript function that may contain some markup that React renders into the browser.
+React components use a syntax extension called JSX to represent that markup.
+JSX looks a lot like HTML, but it is a bit stricter and can display dynamic information.
+The best way to understand this is to convert some HTML markup to JSX markup.</p></blockquote></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="rules-of-jsx">Rules of JSX<a class="hash-link" href="#rules-of-jsx" title="Direct link to heading">​</a></h2><ol><li>Return a single root element</li></ol><ul><li>In a React function component, markup is returned at the end of the function.</li><li>We need to wrap all markup tags in one single parent tag. Usually the single parent tag will be <code>&lt;div&gt;&lt;/div&gt;</code> or <code>&lt;&gt;&lt;/&gt;</code>(called React Fragment).</li><li>This is because JSX looks like HTML in JavaScript, but under the hood it is transformed into plain JavaScript.
+So in function component we are basically return something in a JavaScript function.
+JavaScript function doesn't allow multiple values unless you wrap them into an array or an object and return the array or the object.</li></ul><ol start="2"><li>Close all the tags<blockquote><p>JSX requires tags to be explicitly closed: self-closing tags like <code>&lt;img&gt;</code> must become <code>&lt;img /&gt;</code>, and wrapping tags like <code>&lt;li&gt;</code>oranges must be written as <code>&lt;li&gt;oranges&lt;/li&gt;</code>.</p></blockquote></li><li>camelCase most of the things</li></ol><ul><li>JSX turns into JavaScript and attributes written in JSX become keys of JavaScript objects. In your own components, you will often want to read those attributes into variables.</li><li>But JavaScript has some limitations on variable names. For example, no dashes or reserved words allowed.</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="convert-html-to-jsx-markup">Convert HTML to JSX markup<a class="hash-link" href="#convert-html-to-jsx-markup" title="Direct link to heading">​</a></h2><p>HTML and markup in React have different rules. Converting lots of things manually could be tedious.
+Some <a href="https://transform.tools/html-to-jsx" target="_blank" rel="noopener noreferrer">online converter</a> could be helpful especially when you have lots of HTML to be converted into React JSX.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="recap">Recap<a class="hash-link" href="#recap" title="Direct link to heading">​</a></h2><ul><li>React components group rendering logic together with markup because they are related.</li><li>JSX is similar to HTML, with a few differences. You can use a converter if you need to.</li><li>Error messages will often point you in the right direction to fixing your markup.</li></ul>]]></content>
+        <author>
+            <name>Ziwei Wang</name>
+            <uri>https://github.com/zwwang98</uri>
+        </author>
+        <category label="JavaScript" term="JavaScript"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What is Servlet?]]></title>
         <id>servlet</id>
@@ -99,24 +133,6 @@ The handler methods we metioned above, is just the <code>doXXX</code> method in 
         <category label="resources" term="resources"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Embed Live Code Editor in your Website?]]></title>
-        <id>sandpack</id>
-        <link href="https://github.com/blog/sandpack"/>
-        <updated>2022-06-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When I was reading React Docs Beta, I found an editable code block and its live rendering result on that page.]]></summary>
-        <content type="html"><![CDATA[<p>When I was reading <a href="https://beta.reactjs.org/learn#sharing-data-between-components" target="_blank" rel="noopener noreferrer">React Docs Beta</a>, I found an editable code block and its live rendering result on that page.
-I was wondering how to do so and maybe I could use this tool for my own website. Then I opened the chrome console and seleted the element I was interested in and found the corresponding html code like below:
-<img loading="lazy" alt="react-docs-editable-code-block-screenshot" src="/assets/images/react-docs-editable-code-block-screenshot-f7e8670b47ff41965ad5614845d9173b.png" width="1935" height="840" class="img_E7b_"></p><p>The div has a class attribute "sandpack-container" that sounds like sandbox. So I googled it and this is what I found:
-<img loading="lazy" alt="sandpack-website-screenshot" src="/assets/images/sandpack-website-screenshot-ebc9724dd4a14e9fcbf86b47bec505b2.png" width="3790" height="1854" class="img_E7b_"></p><p>And this is what we will discuss.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="sandpack">Sandpack<a class="hash-link" href="#sandpack" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_mojV" id="what-is-sandpack">What is Sandpack<a class="hash-link" href="#what-is-sandpack" title="Direct link to heading">​</a></h3><p>On their <a href="https://sandpack.codesandbox.io/" target="_blank" rel="noopener noreferrer">website</a>, it says that:</p><blockquote><p>A component toolkit for creating live-running code editing experiences, using the power of CodeSandbox.</p></blockquote><h3 class="anchor anchorWithStickyNavbar_mojV" id="running-example">Running Example<a class="hash-link" href="#running-example" title="Direct link to heading">​</a></h3><p>Following <a href="https://sandpack.codesandbox.io/docs/" target="_blank" rel="noopener noreferrer">Sandpack's Docs</a>, I added this running Sandpack react component for writting React below. Feel free to give it a try!</p><div class="sp-wrapper sp-default sp-c-fVPbOs sp-c-fVPbOs-gMQIch-variant-light"><div class="sp-layout sp-c-dvoSuG"><div class="sp-stack sp-c-jKpMgH" style="flex-grow:50;flex-shrink:50;min-width:350px"><div class="sp-code-editor sp-c-bNbSGz"><div aria-describedby="enter-instructions-2787" aria-label="Code Editor for App.js" class="sp-cm sp-pristine sp-javascript sp-c-jcgexo sp-c-jkvvao" role="group" tabindex="0" translate="no"><pre class="sp-pre-placeholder sp-c-fWymNx" style="margin-left:var(--sp-space-5)"><span class="sp-syntax-keyword">export</span> <span class="sp-syntax-keyword">default</span> <span class="sp-syntax-keyword">function</span> <span class="sp-syntax-definition">App</span><span class="sp-syntax-punctuation">(</span><span class="sp-syntax-punctuation">)</span> <span class="sp-syntax-punctuation">{</span>
-  <span class="sp-syntax-keyword">return</span> <span class="sp-syntax-punctuation">&lt;</span><span class="sp-syntax-tag">h1</span><span class="sp-syntax-punctuation">&gt;</span>Hello World<span class="sp-syntax-punctuation">&lt;/</span><span class="sp-syntax-tag">h1</span><span class="sp-syntax-punctuation">&gt;</span>
-<span class="sp-syntax-punctuation">}</span></pre><p id="enter-instructions-2787" style="display:none">To enter the code editing mode, press Enter. To exit the edit mode, press Escape</p><p id="exit-instructions-2787" style="display:none">You are editing the code. To exit the edit mode, press Escape</p></div></div></div><div class="sp-stack sp-c-jKpMgH" style="flex-grow:50;flex-shrink:50;min-width:350px"><div class="sp-preview-container sp-c-bIhyHd"><iframe class="sp-preview-iframe sp-c-fgviib" title="Sandpack Preview"></iframe><div class="sp-preview-actions sp-c-eKnQtg"><a href="https://codesandbox.io/api/v1/sandboxes/define?undefined" rel="noreferrer noopener" target="_blank" title="Open in CodeSandbox" class="sp-button sp-icon-standalone sp-c-jCyRbv sp-c-gMfcns sp-c-eBhISN"><svg fill="none" height="24" stroke="currentColor" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.5714 7H8.07143C7.4797 7 7 7.4797 7 8.07143V15.9286C7 16.5203 7.4797 17 8.07143 17H15.9286C16.5203 17 17 16.5203 17 15.9286V13.4286"></path><path d="M14.1429 7H16.8929C16.952 7 17 7.04798 17 7.10714V9.85715"></path><path d="M11.2858 12.7143L16.8572 7.14282"></path></svg></a></div></div></div></div></div>]]></content>
-        <author>
-            <name>Ziwei Wang</name>
-            <uri>https://github.com/zwwang98</uri>
-        </author>
-        <category label="blog" term="blog"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to deploy your website on github pages without repo name?]]></title>
         <id>deploy-on-github-pages-without-repo-name</id>
         <link href="https://github.com/blog/deploy-on-github-pages-without-repo-name"/>
@@ -130,6 +146,24 @@ I was wondering how to do so and maybe I could use this tool for my own website.
             <uri>https://github.com/zwwang98</uri>
         </author>
         <category label="deploy on github" term="deploy on github"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Embed Live Code Editor in your Website?]]></title>
+        <id>sandpack</id>
+        <link href="https://github.com/blog/sandpack"/>
+        <updated>2022-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When I was reading React Docs Beta, I found an editable code block and its live rendering result on that page.]]></summary>
+        <content type="html"><![CDATA[<p>When I was reading <a href="https://beta.reactjs.org/learn#sharing-data-between-components" target="_blank" rel="noopener noreferrer">React Docs Beta</a>, I found an editable code block and its live rendering result on that page.
+I was wondering how to do so and maybe I could use this tool for my own website. Then I opened the chrome console and seleted the element I was interested in and found the corresponding html code like below:
+<img loading="lazy" alt="react-docs-editable-code-block-screenshot" src="/assets/images/react-docs-editable-code-block-screenshot-f7e8670b47ff41965ad5614845d9173b.png" width="1935" height="840" class="img_E7b_"></p><p>The div has a class attribute "sandpack-container" that sounds like sandbox. So I googled it and this is what I found:
+<img loading="lazy" alt="sandpack-website-screenshot" src="/assets/images/sandpack-website-screenshot-ebc9724dd4a14e9fcbf86b47bec505b2.png" width="3790" height="1854" class="img_E7b_"></p><p>And this is what we will discuss.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="sandpack">Sandpack<a class="hash-link" href="#sandpack" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_mojV" id="what-is-sandpack">What is Sandpack<a class="hash-link" href="#what-is-sandpack" title="Direct link to heading">​</a></h3><p>On their <a href="https://sandpack.codesandbox.io/" target="_blank" rel="noopener noreferrer">website</a>, it says that:</p><blockquote><p>A component toolkit for creating live-running code editing experiences, using the power of CodeSandbox.</p></blockquote><h3 class="anchor anchorWithStickyNavbar_mojV" id="running-example">Running Example<a class="hash-link" href="#running-example" title="Direct link to heading">​</a></h3><p>Following <a href="https://sandpack.codesandbox.io/docs/" target="_blank" rel="noopener noreferrer">Sandpack's Docs</a>, I added this running Sandpack react component for writting React below. Feel free to give it a try!</p><div class="sp-wrapper sp-default sp-c-fVPbOs sp-c-fVPbOs-gMQIch-variant-light"><div class="sp-layout sp-c-dvoSuG"><div class="sp-stack sp-c-jKpMgH" style="flex-grow:50;flex-shrink:50;min-width:350px"><div class="sp-code-editor sp-c-bNbSGz"><div aria-describedby="enter-instructions-6395" aria-label="Code Editor for App.js" class="sp-cm sp-pristine sp-javascript sp-c-jcgexo sp-c-jkvvao" role="group" tabindex="0" translate="no"><pre class="sp-pre-placeholder sp-c-fWymNx" style="margin-left:var(--sp-space-5)"><span class="sp-syntax-keyword">export</span> <span class="sp-syntax-keyword">default</span> <span class="sp-syntax-keyword">function</span> <span class="sp-syntax-definition">App</span><span class="sp-syntax-punctuation">(</span><span class="sp-syntax-punctuation">)</span> <span class="sp-syntax-punctuation">{</span>
+  <span class="sp-syntax-keyword">return</span> <span class="sp-syntax-punctuation">&lt;</span><span class="sp-syntax-tag">h1</span><span class="sp-syntax-punctuation">&gt;</span>Hello World<span class="sp-syntax-punctuation">&lt;/</span><span class="sp-syntax-tag">h1</span><span class="sp-syntax-punctuation">&gt;</span>
+<span class="sp-syntax-punctuation">}</span></pre><p id="enter-instructions-6395" style="display:none">To enter the code editing mode, press Enter. To exit the edit mode, press Escape</p><p id="exit-instructions-6395" style="display:none">You are editing the code. To exit the edit mode, press Escape</p></div></div></div><div class="sp-stack sp-c-jKpMgH" style="flex-grow:50;flex-shrink:50;min-width:350px"><div class="sp-preview-container sp-c-bIhyHd"><iframe class="sp-preview-iframe sp-c-fgviib" title="Sandpack Preview"></iframe><div class="sp-preview-actions sp-c-eKnQtg"><a href="https://codesandbox.io/api/v1/sandboxes/define?undefined" rel="noreferrer noopener" target="_blank" title="Open in CodeSandbox" class="sp-button sp-icon-standalone sp-c-jCyRbv sp-c-gMfcns sp-c-eBhISN"><svg fill="none" height="24" stroke="currentColor" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.5714 7H8.07143C7.4797 7 7 7.4797 7 8.07143V15.9286C7 16.5203 7.4797 17 8.07143 17H15.9286C16.5203 17 17 16.5203 17 15.9286V13.4286"></path><path d="M14.1429 7H16.8929C16.952 7 17 7.04798 17 7.10714V9.85715"></path><path d="M11.2858 12.7143L16.8572 7.14282"></path></svg></a></div></div></div></div></div>]]></content>
+        <author>
+            <name>Ziwei Wang</name>
+            <uri>https://github.com/zwwang98</uri>
+        </author>
+        <category label="blog" term="blog"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[My Experience on Using Material UI]]></title>
