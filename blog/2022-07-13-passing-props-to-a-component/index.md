@@ -9,7 +9,7 @@ authors:
 tags: [React, React Docs(Beta) Personal Notes]
 ---
 
-This is my personal notes on React Docs(Beta) - [Passing Props to a Component](https://beta.reactjs.org/learn/passing-props-to-a-component).
+This is my personal notes on React Docs(Beta) - [Passing Props to a Component](https://beta.reactjs.org/learn/passing-props-to-a-component).  If interested, check whole series [here](https://zwwang98.github.io/blog/react-docs-beta-notes).
 
 ## What are props and why we need to pass them?
 The official [docs](https://beta.reactjs.org/learn/passing-props-to-a-component) says that:

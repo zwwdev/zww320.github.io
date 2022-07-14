@@ -9,7 +9,7 @@ authors:
 tags: [React, React Docs(Beta) Personal Notes]
 ---
 
-This is my personal notes on React Docs(Beta) - [JavaScript in JSX with Curly Braces](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces).
+This is my personal notes on React Docs(Beta) - [JavaScript in JSX with Curly Braces](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces). If interested, check whole series [here](https://zwwang98.github.io/blog/react-docs-beta-notes).
 
 ## What are the curly braces used for in JSX?
 Add some JavaScript inside the markup in the JSX.

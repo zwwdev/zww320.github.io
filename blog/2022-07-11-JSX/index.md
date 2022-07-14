@@ -9,7 +9,7 @@ authors:
 tags: [React, React Docs(Beta) Personal Notes]
 ---
 
-This is my personal notes on React Docs(Beta) - [Writting Markup with JSX](https://beta.reactjs.org/learn/writing-markup-with-jsx).
+This is my personal notes on React Docs(Beta) - [Writting Markup with JSX](https://beta.reactjs.org/learn/writing-markup-with-jsx).  If interested, check whole series [here](https://zwwang98.github.io/blog/react-docs-beta-notes).
 
 ## What is JSX?
 JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file.
