@@ -1,5 +1,5 @@
 ---
-slug: react-docs-beta-notes
+slug: passing-props-to-a-component
 title: Personal Notes on React Docs(Beta)
 authors:
   name: Ziwei Wang
