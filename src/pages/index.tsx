@@ -33,7 +33,7 @@ function HomepageHeader() {
     {
       icon: <InsertDriveFileIcon/>,
       title: "Resume",
-      link: "https://drive.google.com/file/d/1tatRyjrzkt5TYCV-Q2wKa16UUm3CruQb/view"
+      link: "https://drive.google.com/file/d/1TFFTfhH8FnC622f-W3uoHeWikQKHgyrz/view?usp=sharing"
     },
   ];
 
