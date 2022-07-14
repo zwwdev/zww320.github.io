@@ -6,7 +6,7 @@ authors:
   title: this website owner
   url: https://github.com/zwwang98
   image_url: https://github.com/zwwang98.png
-tags: [JavaScript]
+tags: [React, React Docs(Beta) Personal Notes]
 ---
 
 

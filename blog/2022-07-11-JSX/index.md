@@ -6,10 +6,8 @@ authors:
   title: this website owner
   url: https://github.com/zwwang98
   image_url: https://github.com/zwwang98.png
-tags: [JavaScript]
+tags: [React, React Docs(Beta) Personal Notes]
 ---
-
-import { Sandpack } from "@codesandbox/sandpack-react";
 
 This is my personal notes on React Docs(Beta) - [Writting Markup with JSX](https://beta.reactjs.org/learn/writing-markup-with-jsx).
 
