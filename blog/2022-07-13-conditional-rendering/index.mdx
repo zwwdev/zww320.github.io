@@ -84,6 +84,18 @@ return (
 ```
 A JavaScript && expression returns the value of its right side (in our case, the checkmark) if the left side (our condition) is true. But if the condition is false, the whole expression becomes false. React considers false as a “hole” in the JSX tree, just like null or undefined, and doesn’t render anything in its place.
 
+A common bug may comes from using `&&` shortcut. 
+
+
+:::caution
+Don’t put numbers on the left side of `&&`. To test the condition, JavaScript converts the left side to a boolean automatically. However, if the left side is 0, then the whole expression gets that value (0), and React will happily render 0 rather than nothing.
+For example, a common mistake is to write code like `messageCount && <p>New messages</p>`. It’s easy to assume that it renders nothing when messageCount is 0, but it really renders the 0 itself!
+To fix it, make the left side a boolean: `messageCount > 0 && <p>New messages</p>`.
+:::
+
+
+
+
 ### Conditionally Assignment
 When previous shortcuts lead to a complex code, try using plain `if` statement again to modify variable's value.
 You can reassign variables defined with let, so start by providing the default content you want to display in a `let` variable and reassign it in `if` statements.
@@ -135,3 +147,4 @@ This style is more verbose but it looks good to me, since this is just JavaScrip
 - In JSX, `{cond ? <A /> : <B />}` means “if cond, render `<A />, otherwise <B />”.`
 - In JSX, `{cond && <A />}` means “if cond, render `<A />`, otherwise nothing”.
 - The shortcuts are common, but you don’t have to use them if you prefer plain `if`.
+- To avoid common bug in using and operator, do not put numbers on the left side of the `&&`.
