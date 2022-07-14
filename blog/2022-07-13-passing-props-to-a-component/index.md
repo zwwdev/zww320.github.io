@@ -9,6 +9,4 @@ authors:
 tags: [React, React Docs(Beta) Personal Notes]
 ---
 
-- Describing the UI
-  - [Writting Markup with JSX](https://zwwang98.github.io/blog/jsx)
-  - [JavaScript in JSX with Curly Braces](https://zwwang98.github.io/blog/javascript-in-jsx-with-curly-braces)
+This is my personal notes on React Docs(Beta) - [Passing Props to a Component](https://beta.reactjs.org/learn/passing-props-to-a-component).
