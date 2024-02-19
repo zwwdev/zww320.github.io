@@ -1,3 +1,3 @@
 # Contact
-[LinkedIn](https://www.linkedin.com/in/zwwang/) - https://www.linkedin.com/in/zwwang/
-Email - ziweiwang630@gmail.com
+- LinkedIn - https://www.linkedin.com/in/zwwang/  
+- Email - ziweiwang630@gmail.com
